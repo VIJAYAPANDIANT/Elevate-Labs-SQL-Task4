@@ -88,6 +88,7 @@ ORDER BY age DESC
 LIMIT 3;
 
 8️--Test edge cases
+
 --NULL values last
 SELECT * FROM students
 ORDER BY email IS NULL, email;
