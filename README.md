@@ -69,8 +69,7 @@ SELECT * FROM students ORDER BY id LIMIT 2 OFFSET 0;
 SELECT * FROM students ORDER BY id LIMIT 2 OFFSET 2;
 ```
 
-> **Tip**
-> 
+> [!TIP]
 > You can execute the different `SELECT` queries individually to observe how `ORDER BY`, `LIMIT`, and `OFFSET` sort, restrict, and paginate the result set differently.
 
 ---
